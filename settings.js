@@ -5,7 +5,35 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝐒𝐔𝐋𝐀-𝐌𝐃=Qv1kwTBT#lOwQon9Eu4cO33q0Qqdh1QMnDhddDDWGaxy-3lXOmy0' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '# SULA-MD WhatsApp Bot
+
+SULA-MD is a powerful, multi-device WhatsApp bot created by Sulaksha Madara.
+
+## Features
+- **Fast Deployment**: Deploy with one-click options.
+- **User-Friendly**: Intuitive bot interface.
+- **Efficient**: Optimized for performance.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/sula-md.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the bot:
+   ```bash
+   npm start
+   ```
+
+## Contact
+- **Owner**: Sulaksha Madara
+- **WhatsApp**: [+94 760 663 483](https://wa.me/94760663483)
+
+---
+© 2025 Sulaksha Madara. All rights reserved.' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"privet" : process.env.MODE,
